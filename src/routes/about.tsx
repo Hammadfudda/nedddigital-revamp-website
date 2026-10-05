@@ -8,9 +8,9 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About Nedd Digital" },
-      { name: "description", content: "Nedd Digital helps businesses with bookkeeping, data, automation and digital tools. Based in Jersey City, NJ." },
+      { name: "description", content: "Nedd Digital helps businesses with bookkeeping, data and digital tools. Based in Jersey City, NJ." },
       { property: "og:title", content: "About Nedd Digital" },
-      { property: "og:description", content: "Nedd Digital helps businesses with bookkeeping, data, automation and digital tools. Based in Jersey City, NJ." },
+      { property: "og:description", content: "Nedd Digital helps businesses with bookkeeping, data and digital tools. Based in Jersey City, NJ." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/about")({
 const WHO = [
   { title: "Small business owners", body: "Who need their books kept accurate and want to understand their numbers without having to become an accountant themselves." },
   { title: "Growing teams", body: "Who have outgrown spreadsheets and email chains and need a proper system before things start slipping." },
-  { title: "Operations & finance leads", body: "Who want dashboards and automation that give their team real hours back every week." },
+  { title: "Operations & finance leads", body: "Who want dashboards and reporting that give their team real hours back every week." },
 ];
 
 const PRINCIPLES = [
@@ -56,7 +56,7 @@ function Page() {
           <h2 className="text-3xl font-semibold text-navy md:text-4xl">Practical help, not buzzwords.</h2>
         </div>
         <div className="space-y-5 text-lg text-muted-foreground">
-          <p>Nedd Digital works across two areas that are usually kept apart: keeping your finances clear, and building the digital tools your business depends on. We think that split is a mistake. The person who understands your numbers should be talking to the person building your systems, because the two are almost always connected.</p>
+          <p>Nedd Digital works across the parts of a business that usually need to support one another: the numbers, the reporting, and the digital tools your team depends on. We think that split is a mistake. The person who understands your numbers should be talking to the person building your systems, because the two are almost always connected.</p>
           <p>Most of the businesses we work with don't need more software. They need their existing numbers to be right, their reports to answer the question they actually asked, and their day to day work to take less effort than it currently does. That's the whole job, really.</p>
         </div>
       </section>

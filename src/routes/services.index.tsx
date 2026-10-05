@@ -7,9 +7,9 @@ export const Route = createFileRoute("/services/")({
   head: () => ({
     meta: [
       { title: "Services | Nedd Digital" },
-      { name: "description", content: "Bookkeeping, Power BI & Tableau, automation, websites, software, mobile apps and branding from Nedd Digital." },
+      { name: "description", content: "Bookkeeping, Power BI & Tableau, websites, software, mobile apps and branding from Nedd Digital." },
       { property: "og:title", content: "Services | Nedd Digital" },
-      { property: "og:description", content: "Bookkeeping, Power BI & Tableau, automation, websites, software, mobile apps and branding from Nedd Digital." },
+      { property: "og:description", content: "Bookkeeping, Power BI & Tableau, websites, software, mobile apps and branding from Nedd Digital." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
