@@ -1,7 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { PageHero, ProcessSteps, CtaBand, PrimaryLink } from "@/components/site/Blocks";
 import { getService } from "@/lib/site";
-import analyticsDashboard from "@/assets/data-analysis-dashboard.png.asset.json";
+const analyticsDashboard = { url: "/images/data-analysis-dashboard.png" };
 import { Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/services/$slug")({

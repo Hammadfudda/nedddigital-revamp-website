@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 import { useState } from "react";
 import { PageHero, CtaBand, Eyebrow, PrimaryLink } from "@/components/site/Blocks";
 import { PortfolioGrid } from "@/components/site/PortfolioGrid";
-import leaveImg from "@/assets/leave-management-demo.jpg.asset.json";
+const leaveImg = { url: "/images/leave-management-demo.jpg" };
 import { PORTFOLIO, PORTFOLIO_CATEGORIES, type PortfolioCategory } from "@/lib/portfolio";
 import { Button } from "@/components/ui/button";
 

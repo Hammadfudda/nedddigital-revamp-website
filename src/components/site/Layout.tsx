@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { ChevronDown, Menu, X, Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/nedd-digital-logo.png.asset.json";
+const logo = { url: "/images/nedd-digital-logo.png" };
 import { CONTACT, SERVICES } from "@/lib/site";
 
 const NAV = [

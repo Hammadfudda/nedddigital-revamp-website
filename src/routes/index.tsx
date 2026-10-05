@@ -1,8 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, BarChart3, Check, HeartHandshake, Layers3, ShieldCheck } from "lucide-react";
 import { CtaBand, Eyebrow, GhostLink, PrimaryLink, ProcessSteps } from "@/components/site/Blocks";
-import analyticsDashboard from "@/assets/data-analysis-dashboard.png.asset.json";
-import leaveDashboard from "@/assets/leave-management-demo.jpg.asset.json";
+const analyticsDashboard = { url: "/images/data-analysis-dashboard.png" };
+const leaveDashboard = { url: "/images/leave-management-demo.jpg" };
 import { Reveal } from "@/components/site/Reveal";
 import { LEAVE_FEATURES, SERVICES } from "@/lib/site";
 import { CATEGORY_LABEL, PORTFOLIO } from "@/lib/portfolio";

@@ -1,5 +1,5 @@
 import { LEAVE_FEATURES } from "@/lib/site";
-import leaveDashboard from "@/assets/leave-management-demo.jpg.asset.json";
+const leaveDashboard = { url: "/images/leave-management-demo.jpg" };
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, CtaBand, PrimaryLink } from "@/components/site/Blocks";
 

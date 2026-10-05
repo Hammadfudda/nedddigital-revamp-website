@@ -1,6 +1,6 @@
 import urls from "./portfolio-assets.json";
-import leaveDashboard from "@/assets/leave-management-demo.jpg.asset.json";
-import analyticsDashboard from "@/assets/data-analysis-dashboard.png.asset.json";
+const leaveDashboard = { url: "/images/leave-management-demo.jpg" };
+const analyticsDashboard = { url: "/images/data-analysis-dashboard.png" };
 
 export type PortfolioCategory = "websites" | "webdev" | "mobile" | "branding" | "analytics" | "software";
 
