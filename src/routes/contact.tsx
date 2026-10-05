@@ -136,7 +136,9 @@ function Page() {
             {failed
               ? `Sorry, that didn't go through. Please try again or email us at ${CONTACT.email}.`
               : sent
-                ? "Thanks, that's been sent through. We'll get back to you within 24 hours."
+                ? backendReady
+                  ? "Thanks, that's been sent through. We'll get back to you within 24 hours."
+                  : "Thanks, your email app is opening. Send the message and we'll get back to you within 24 hours."
                 : "We'll reply within 24 hours."}
           </p>
         </form>
